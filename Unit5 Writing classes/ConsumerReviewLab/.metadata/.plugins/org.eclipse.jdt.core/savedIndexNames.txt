@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/Users/daniel/Desktop/java_practice/APCSA/ConsumerReview/.metadata/.plugins/org.eclipse.jdt.core
+925321315.index
