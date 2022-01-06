@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;scraper.java&apos; to &apos;dev&apos;" description="Move &apos;scraper.java&apos; to &apos;dev&apos;" destination="/dev" element1="src/main/java/scraper.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1636343510295" updateReferences="true"/>
+</session>
