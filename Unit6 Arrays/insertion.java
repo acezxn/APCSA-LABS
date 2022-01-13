@@ -3,6 +3,7 @@
 public class insertion {
     public static void main(String[] args) {
         int[] input = { 2, 1, 6, 0, 8, 9, 5, 3, 3 };
+        System.out.print("Array before sort: \t");
         for (int i : input) {
             System.out.print(i);
             System.out.print(" ");
@@ -19,6 +20,7 @@ public class insertion {
             input[current_idx] = src;
         }
 
+        System.out.print("Array after sort: \t");
         for (int i : input) {
             System.out.print(i);
             System.out.print(" ");

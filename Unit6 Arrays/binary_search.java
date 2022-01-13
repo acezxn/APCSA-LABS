@@ -20,6 +20,7 @@ public class binary_search {
         return -1;
     }
 
+    // recursion method to binary search
     public static int recursive(int[] input, int target, int lb, int rb) {
         int idx = (lb + rb) / 2;
         if (lb > rb) {
@@ -42,9 +43,12 @@ public class binary_search {
             System.out.print(" ");
         }
         System.out.println();
+        System.out.println("Running binary search with loop method:");
         int res = search(input, target);
-        System.out.println(res);
-        System.out.println(recursive(input, target, 0, 12));
+        System.out.println("target " + target + " is at index " + res);
+        System.out.println();
+        System.out.println("Running binary search with recursion method:");
+        System.out.println("target " + target + " is at index " + recursive(input, target, 0, 12));
 
     }
 }
