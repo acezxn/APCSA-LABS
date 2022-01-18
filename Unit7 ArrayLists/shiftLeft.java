@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 public class shiftLeft {
   public static void main(String[] args) {
     ArrayList<Integer> arr = new ArrayList<Integer>();
