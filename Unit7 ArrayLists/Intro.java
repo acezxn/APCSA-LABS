@@ -8,6 +8,7 @@ public class Intro {
 
     // declare an ArrayList with an unsafe method:
     ArrayList<String> arr_unsafe = new ArrayList();
+    ArrayList arr_unsafe2 = new ArrayList();
 
     // ArrayList can only hold objects, but you can add primitive types in it by using wrapper classes:
     ArrayList<Integer> arr_int = new ArrayList<>();

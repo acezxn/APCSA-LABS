@@ -17,7 +17,7 @@ public class Intro {
 
     // access the element in a specific index:
     int index = 1;
-    System.out.println(arr1[idx]);
+    System.out.println(arr1[index]);
 
     // get the number of elements in an array:
     System.out.println(arr2.length);
@@ -31,7 +31,7 @@ public class Intro {
       System.out.println(arr3[i]);
     }
     int i = 0;
-    
+
     while (i < arr3.length) {
       System.out.println(arr3[i]);
       i++;
